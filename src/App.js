@@ -5,9 +5,6 @@ class App extends Component {
 
   constructor() {
     super();
-    this.state = {
-      email: ''
-    }
     this.handleChange = this.handleChange.bind(this);
     this.handleSignin = this.handleSignin.bind(this);
     this.handleSignup = this.handleSignup.bind(this);
